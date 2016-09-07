@@ -1,2 +1,72 @@
+/* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+body {
+  font-family: 'Georgia', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+/* line 9, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+#container {
+  width: 960px;
+  margin: 20px auto;
+  overflow: auto;
+  border: #ccc solid 1px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+header {
+  background: #003d99;
+  color: #fff;
+  height: 90px;
+}
+
+/* line 24, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+header h1 {
+  padding: 20px 0 010px;
+}
+
+/* line 28, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+nav {
+  height: 30px;
+  background: #000;
+  color: #fff;
+  padding-top: 10px;
+}
+
+/* line 35, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+nav li {
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+nav a {
+  color: #fff;
+}
+
+/* line 44, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+section {
+  min-height: 200px;
+}
+
+/* line 48, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
+footer {
+  text-align: center;
+}
 
 /*# sourceMappingURL=../css/main.map */
