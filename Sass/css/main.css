@@ -30,7 +30,7 @@ body {
 
 /* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
 header {
-  background: #003d99;
+  background: #003399;
   color: #fff;
   height: 90px;
 }
@@ -43,7 +43,7 @@ header h1 {
 /* line 28, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/Sass/scss/base/_base.scss */
 nav {
   height: 30px;
-  background: #000;
+  background: #333333;
   color: #fff;
   padding-top: 10px;
 }

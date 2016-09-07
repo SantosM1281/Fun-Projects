@@ -16,7 +16,7 @@ body{
 }
 
 header{
-	background: #003d99;
+	background: $primary-color;
 	color: #fff;
 	height: 90px;
 }
@@ -27,7 +27,7 @@ header h1{
 
 nav{
 	height: 30px;
-	background: #000;
+	background: $secondary-color;
 	color: #fff;
 	padding-top: 10px; 
 }
