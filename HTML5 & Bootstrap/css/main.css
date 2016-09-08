@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5 {
   padding-top: 0;
 }
 
+/* line 13, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
 body {
   font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
@@ -46,6 +52,11 @@ input, textarea, button {
   border-radius: 0px;
 }
 
+/* line 20, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
 /* Modules -  Individual site components */
 /*List*/
 /* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
@@ -62,13 +73,89 @@ input, textarea, button {
 
 /* line 13, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .list-feature li {
-  line-height: 2.2em;
+  line-height: 3.6em;
   border-bottom: 1px solid #cccccc;
 }
 
 /* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .list-feature li:last-child {
   border: 0;
+}
+
+/* line 22, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 28, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin: 5px;
+}
+
+/*Icons*/
+/* line 35, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 39, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 43, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 47, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-5 {
+  font-size: 32px;
+}
+
+/* line 51, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px;
+}
+
+/* line 55, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 60, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/*Headings*/
+/* line 70, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.heading-primary {
+  color: #00aff0;
+}
+
+/* line 74, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.heading-secondary {
+  color: #7fba00;
+}
+
+/* line 78, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.heading-light {
+  color: #e4eef2;
+}
+
+/* line 82, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.heading-dark {
+  color: #2b5464;
 }
 
 /*Blocks*/
@@ -128,6 +215,24 @@ input, textarea, button {
 /* line 32, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
 .block-center {
   text-align: center !important;
+}
+
+/*Button*/
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  border: 2px solid #ffffff;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.btn-primary else {
+  color: #ffffff;
+}
+
+/* line 8, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #008abd;
+  border: 2px solid #ffffff;
 }
 
 /* Sections */
