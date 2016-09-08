@@ -2,7 +2,267 @@
 Author: Santos Munoz
 Version: 0.0.1*/
 /* Base - Base styles, variables, mixins, etc. */
+/*Font Styles*/
+/*Background Color*/
+/*Showcase Area*/
+/*Mixins Border Radius*/
+/* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 8, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 12, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 16, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
 /* Modules -  Individual site components */
+/*List*/
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 13, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 2.2em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/*Blocks*/
+/* line 2, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 6, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 12, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.block-primary else {
+  color: #ffffff;
+}
+
+/* line 17, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.block-secondary else {
+  color: #ffffff;
+}
+
+/* line 22, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.block-light else {
+  color: #ffffff;
+}
+
+/* line 27, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.block-dark else {
+  color: #ffffff;
+}
+
+/* line 32, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* Sections */
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+
+/* line 11, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 95px 15px;
+  text-align: center;
+}
+
+/* line 16, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 21, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.section-primary else, .section-primary-a else, .section-primary-b else {
+  color: #ffffff;
+}
+
+/* line 25, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 30, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 35, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.section-secondary else {
+  color: #ffffff;
+}
+
+/* line 38, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.section-light else {
+  color: #ffffff;
+}
+
+/* line 42, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464;
+}
+
+/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
+.section-dark else {
+  color: #ffffff;
+}
+
+/*Searchbox*/
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 6, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 21, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
 /* Layouts - Page layout styles */
+/*Navbar*/
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 12, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 21, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
 
 /*# sourceMappingURL=../css/main.map */
