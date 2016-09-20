@@ -27,6 +27,37 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 40px;
 }
 
+/* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.top-inner {
+  padding: 90px 0 30px 0;
+}
+
+/* Image Sizes */
+/* line 23, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 24, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 25, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 26, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 28, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_reset.scss */
+.clearfix {
+  clear: both;
+}
+
 /* line 1, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
 body {
   font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
@@ -55,6 +86,12 @@ input, textarea, button {
 /* line 20, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
 img.device {
   width: 100%;
+}
+
+/* line 24, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
 }
 
 /* Modules -  Individual site components */
@@ -174,20 +211,12 @@ img.device {
 /* line 12, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
 .block-primary {
   background: #00aff0;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.block-primary else {
   color: #ffffff;
 }
 
 /* line 17, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
 .block-secondary {
   background: #7fba00;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.block-secondary else {
   color: #ffffff;
 }
 
@@ -197,18 +226,9 @@ img.device {
   color: #666666;
 }
 
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.block-light else {
-  color: #ffffff;
-}
-
 /* line 27, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_blocks.scss */
 .block-dark {
   background: #2b5464;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.block-dark else {
   color: #ffffff;
 }
 
@@ -221,12 +241,8 @@ img.device {
 /* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_buttons.scss */
 .btn-primary {
   background: #00aff0;
-  border: 2px solid #ffffff;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.btn-primary else {
   color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 /* line 8, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_buttons.scss */
@@ -261,10 +277,6 @@ section {
 /* line 21, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
 .section-primary, .section-primary-a, .section-primary-b {
   background: #00aff0;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.section-primary else, .section-primary-a else, .section-primary-b else {
   color: #ffffff;
 }
 
@@ -281,10 +293,6 @@ section {
 /* line 35, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
 .section-secondary {
   background: #7fba00;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.section-secondary else {
   color: #ffffff;
 }
 
@@ -294,18 +302,9 @@ section {
   color: #666666;
 }
 
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.section-light else {
-  color: #ffffff;
-}
-
 /* line 42, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_sections.scss */
 .section-dark {
   background: #2b5464;
-}
-
-/* line 40, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/base/_mixins.scss */
-.section-dark else {
   color: #ffffff;
 }
 
@@ -368,6 +367,34 @@ section {
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #00aff0 !important;
   color: #fff !important;
+}
+
+/* Footer */
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_footer.scss */
+.footer-main {
+  background: #2b5464;
+  color: #ffffff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+
+/* line 10, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+}
+
+/* line 14, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
 }
 
 /*# sourceMappingURL=../css/main.map */
