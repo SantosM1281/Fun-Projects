@@ -14,7 +14,7 @@ ul, li {
 }
 
 input, textarea, button{
-	@include border-radius( 0px);
+	@include border-radius(0px);
 }
 
 img.device{
@@ -22,6 +22,6 @@ img.device{
 }
 
 img.device-small{
-	width:70%;
-	margin-bottom:-40px;
+	width: 70%;
+	margin-bottom: -40px;
 }

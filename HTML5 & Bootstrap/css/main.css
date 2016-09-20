@@ -308,6 +308,18 @@ section {
   color: #ffffff;
 }
 
+/*Carousel*/
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 6, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
 /*Searchbox*/
 /* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_forms.scss */
 .search {
