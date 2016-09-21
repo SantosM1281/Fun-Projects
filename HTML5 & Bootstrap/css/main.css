@@ -187,8 +187,8 @@ img.device-small {
   color: #00aff0;
 }
 
-/* line 80, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
-.fa border {
+/* line 81, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+.fa-border {
   border: 1px solid #00aff0;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -199,63 +199,63 @@ img.device-small {
 }
 
 /*Headings*/
-/* line 90, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 91, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-primary, .heading-primary-a {
   color: #00aff0;
 }
 
-/* line 94, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 95, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-primary-a {
   border-bottom: 2px solid #00aff0;
 }
 
-/* line 99, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 100, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-secondary, .heading-secondary-a {
   color: #7fba00;
 }
 
-/* line 103, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 104, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-secondary-a {
   border-bottom: 2px solid #7fba00;
 }
 
-/* line 108, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 109, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-light, .heading-light-a {
   color: #e4eef2;
 }
 
-/* line 112, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 113, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-light-a {
   border-bottom: 2px solid #e4eef2;
 }
 
-/* line 117, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 118, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-dark, .heading-dark-a {
   color: #2b5464;
 }
 
-/* line 121, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 122, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .heading-dark-a {
   border-bottom: 2px solid #2b5464;
 }
 
 /*Emphasis Text*/
-/* line 127, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 128, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .em-primary {
   color: #00aff0;
 }
 
-/* line 131, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 132, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .em-secondary {
   color: #7fba00;
 }
 
-/* line 135, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 136, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .em-light {
   color: #e4eef2;
 }
 
-/* line 139, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
+/* line 140, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/modules/_typography.scss */
 .em-dark {
   color: #2b5464;
 }

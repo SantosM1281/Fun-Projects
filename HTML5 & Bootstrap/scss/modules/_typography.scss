@@ -75,9 +75,10 @@
 
 .fa-primary{
 	color: $primary-color;	
+
 }
 
-.fa border{
+.fa-border{
 	@include add-border(1px, $primary-color, all);
 	@include border-radius(5px);
 	padding: 13px;
