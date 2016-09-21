@@ -13,6 +13,7 @@
 	li{
 		line-height: 3.6em;
 		@include add-border(1px, #cccccc, bottom);
+		overflow: auto;
 	}
 
 	li:last-child{
@@ -27,11 +28,31 @@
 
 	i{
 		margin-top: -9px;
-		margin: 5px;
+		margin-right: 5px;
 	}
 }
 
+.list-comments {
+	margin:0;
+	padding:0;
+}
+
+.list-comments li{
+	padding:10px 0 5px 0;
+	@include add-border(1px, #cccccc, bottom);
+	overflow:auto !important;
+}
+
+.list-comments li:last-child{
+	border:0;
+}
+
+.list-comments img{
+	width:100px;
+}
+
 /*Icons*/
+
 .fa-2{
 	font-size: 18px;
 } 
@@ -45,7 +66,7 @@
 }
 
 .fa-5{
-	font-size: 32px;
+	font-size: 35px;
 }
 
 .fa-6{
@@ -53,14 +74,13 @@
 }
 
 .fa-primary{
-	color: $primary-color;
-	
+	color: $primary-color;	
 }
 
 .fa border{
 	@include add-border(1px, $primary-color, all);
 	@include border-radius(5px);
-	padding:13px;
+	padding: 13px;
 	width: 70px;
 	margin-bottom: 10px;
 }
@@ -71,14 +91,51 @@
 	color: $primary-color;
 }
 
+.heading-primary-a{
+	@extend .heading-primary;
+	@include add-border(2px, $primary-color, bottom)
+}
+
 .heading-secondary{
 	color: $secondary-color;
+}
+
+.heading-secondary-a{
+	@extend .heading-secondary;
+	@include add-border(2px, $secondary-color, bottom)
 }
 
 .heading-light{
 	color: $light-color;
 }
 
+.heading-light-a{
+	@extend .heading-light;
+	@include add-border(2px, $light-color, bottom)
+}
+
 .heading-dark{
+	color: $dark-color;
+}
+
+.heading-dark-a{
+	@extend .heading-dark;
+	@include add-border(2px, $dark-color, bottom)
+}
+
+/*Emphasis Text*/
+.em-primary{
+	color: $primary-color;
+}
+
+.em-secondary{
+	color: $secondary-color;
+}
+
+.em-light{
+	color: $light-color;
+}
+
+.em-dark{
 	color: $dark-color;
 }
