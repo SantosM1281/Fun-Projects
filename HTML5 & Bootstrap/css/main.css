@@ -557,4 +557,58 @@ section {
   list-style: none;
 }
 
+/* Blog */
+/* line 3, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 8, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 13, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 18, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 7, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_mobile.scss */
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 12, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 17, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 22, C:/Users/Glory/Desktop/GitHub-Projects/Fun-Projects/HTML5 & Bootstrap/scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=../css/main.map */

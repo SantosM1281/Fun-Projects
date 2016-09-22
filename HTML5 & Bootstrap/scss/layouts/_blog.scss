@@ -1,8 +1,8 @@
 /* Blog */
 
 .blog-post{
-	@include add-border(1px, #cccccc,top);
-	@include add-border(1px, #cccccc,right-left);
+	@include add-border(1px, #cccccc, top);
+	@include add-border(1px, #cccccc, right-left);
 	padding: 15px;
 	
 	h2.page-header{
